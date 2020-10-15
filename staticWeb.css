@@ -1,0 +1,190 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-image: url(https://artbot.tv/artbot/app/static/media/illustration.3b024c27.jpg);
+  }
+  
+  ul li {
+    padding-left: 20px;
+  }
+
+  ul li::marker{
+    color:#9899AC;
+  }
+
+  ul li::marker:hover{
+    color: #f1f1f1;
+  }
+
+  #topLogo {
+    width: 151px; 
+    height: 41px;
+    padding-left: 20px;
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 85px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(7, 1, 30);
+    padding-top: 10px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    z-index: 1;
+    transition: 0.5s
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #9899AC;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+    background: #271C5A;
+  }
+  
+  main .sidebar{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .material-icons,
+  .icon-text {
+    vertical-align: middle;
+  }
+  
+  .material-icons {
+  
+    margin-right: 30px
+  }
+  
+  #top-row {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  #featured-row {
+    display: inline-flex;
+    flex-wrap: nowrap;
+  }
+  
+  #video-row-1 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+  }
+  
+  #video-row-2 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+  }
+  
+  #audio-row {
+    display: inline-flex;
+    flex-wrap: nowrap;
+  }
+
+  .trending-title {
+    display: inline-flex;
+    color: white;
+    border-bottom: 1px solid #442478;
+    font-size: 18px;
+    width: 1400px;
+    margin-left: 20px;
+  }
+
+  #all {
+    width: 80px;
+    height: 38px;
+    background-color: aqua;
+  }
+
+  #search {
+    width: 800px;
+    height: 38px;
+    background-color: aqua;
+  }
+
+  #searchButton {
+    width: 48px;
+    height: 38px;
+    background-color: aqua;
+  }
+
+  #login {
+    width: 60px;
+    height: 38px;
+    background-color: aqua;
+  }
+
+  .bigVideo {
+    width: 400px;
+    height: 225px;
+    margin: 20px;
+    background-color: aqua;
+  }
+
+  .descripTitle {
+    width: 400px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .descripBody {
+    width: 400px;
+    padding: 10px;
+    color: lightgray;
+    font-size: 15px;
+  }
+
+  .smallVideo {
+    width: 300px;
+    height: 168.75px;
+    margin: 15px;
+    background-color: aqua;
+  }
+
+  .audio {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: aqua;
+  }
+
+  .titles {
+    font-size: 14px;
+    position: relative;
+    color: white;
+  }
+
+  .usernames {
+    font-size: 14px;
+    position: relative;
+    color: white;
+  }
+
+  #main {
+    padding: 16px;
+    margin-left: 85px;
+    transition: margin-left 0.5s;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidebar {
+      padding-top: 15px;
+    }
+    .sidebar a {
+      font-size: 18px;
+    }
+  }
+  
