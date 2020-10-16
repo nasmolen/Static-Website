@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
     background-image: url(https://artbot.tv/artbot/app/static/media/illustration.3b024c27.jpg);
+    background-attachment: fixed;
   }
   
   ul li {
@@ -78,21 +79,6 @@ body {
     flex-wrap: nowrap;
   }
   
-  #video-row-1 {
-    display: inline-flex;
-    flex-wrap: nowrap;
-  }
-  
-  #video-row-2 {
-    display: inline-flex;
-    flex-wrap: nowrap;
-  }
-  
-  #audio-row {
-    display: inline-flex;
-    flex-wrap: nowrap;
-  }
-
   .trending-title {
     display: inline-flex;
     color: white;
@@ -102,35 +88,161 @@ body {
     margin-left: 20px;
   }
 
+  #video-row-1 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+  }
+  
+  .video-row-titles {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 7px;
+  }
+
+  .videoTitles {
+    width: 300px;
+    float: left;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .video-row-usernames {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 7px;
+  }
+
+  .video-bottom {
+    width: 300px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .videoUsers {
+    float: left;
+    width: 260px;
+    font-size: 14px;
+    color: rgb(27, 166, 255);
+    margin: 0px, 0px, 0px, 15px;
+  }
+
+  .videoTime {
+    float: right;
+    width: 40px;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    color: white;
+    margin: 0px, 15px, 0px, 0px;
+    text-align: right;
+  }
+
+  #video-row-2 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+  }
+  
+  #audio-row {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+  }
+
+  .audio-row-titles {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+  }
+
+  .audioTitles {
+    width: 200px;
+    float: left;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .audio-row-usernames {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+  }
+
+  .audio-bottom {
+    width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .audioUsers {
+    float: left;
+    width: 160px;
+    font-size: 14px;
+    color: #8f5aff;
+    margin: 0px, 0px, 0px, 15px;
+  }
+
+  .audioTime {
+    float: right;
+    width: 40px;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    color: white;
+    margin: 0px, 15px, 0px, 0px;
+    text-align: right;
+  }
+
   #all {
     width: 80px;
     height: 38px;
-    background-color: aqua;
+    background-color: #07011D;
+    color: #756C9F;
+    border-right: 1px solid #756C9F;
+    text-align: center;
+    line-height: 2.5;
   }
 
   #search {
     width: 800px;
     height: 38px;
-    background-color: aqua;
+    background-color: #07011D;
+    color: #756C9F;
+    padding-left: 35px;
+    line-height: 2.5;
   }
 
   #searchButton {
     width: 48px;
     height: 38px;
-    background-color: aqua;
+    background-color: #8CDE0D;
+    text-align: center;
+    line-height: 1.7;
   }
 
   #login {
     width: 60px;
     height: 38px;
-    background-color: aqua;
+    position: absolute;
+    right: 20px;
+    color: white;
+    border: 3px solid #8CDE0D;
+    text-align: center;
+    line-height: 2;
+    border-radius: 10px;
+    font-size: 18px;
   }
 
   .bigVideo {
     width: 400px;
     height: 225px;
     margin: 20px;
-    background-color: aqua;
   }
 
   .descripTitle {
@@ -151,13 +263,14 @@ body {
     width: 300px;
     height: 168.75px;
     margin: 15px;
-    background-color: aqua;
+    margin-bottom: 5px;
   }
 
   .audio {
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin: 15px;
+    margin-bottom: 5px;
     background-color: aqua;
   }
 
@@ -171,6 +284,38 @@ body {
     font-size: 14px;
     position: relative;
     color: white;
+  }
+
+  #footer {
+    display: inline-flex;
+    background-color: #140E27;
+    height: 113px;
+    width: 2000px;
+    padding: 0px, 10px
+  }
+
+  #terms {
+    color: white;
+    width: 876px;
+    height: 65px;
+    text-align: center;
+    line-height: 5;
+  }
+
+  #socials {
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    line-height: 2.2;
+    margin-top: 35px;
+    padding-left: 15px;
+  }
+
+  #bottomLogo {
+    width: 240px;
+    height: 65px;
+    margin: 25px;
+    margin-left: 580px;
   }
 
   #main {
